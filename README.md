@@ -1,5 +1,8 @@
 # Wavy Text Animation Library
 
+## Demo
+Try it [here](https://codepen.io/seekertruth/pen/ExmGJjE)
+
 ## Usage
 
 ### Step 1
