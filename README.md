@@ -1,8 +1,5 @@
 # Wavy Text Animation Library
 
-## Demo
-Try it [here](https://codepen.io/seekertruth/pen/ExmGJjE)
-
 ## Usage
 
 ### Step 1
@@ -34,5 +31,9 @@ Example for third argument:
 ```js
 wavy(document.querySelector(".text"), {words: ["Wavy", "Text", "Animation", "Library", "JavaScript"]}, {color: "green"});
 ```
+
+## Demo
+> Try it [here](https://codepen.io/seekertruth/pen/ExmGJjE)
+
 
 This library is hosted on [jsdelivr](https://www.jsdelivr.com/) CDN. 
