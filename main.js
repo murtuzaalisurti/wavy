@@ -1,5 +1,5 @@
 
-function wavy(element, words, options) {
+module.exports = function wavy(element, words, options) {
 
     element.style = ` 
     width: -webkit-fit-content;
