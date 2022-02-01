@@ -1,34 +1,45 @@
 
-function wavy(element, words){
-    console.log(element);
-    console.log(words.words);
+function wavy(element, words, options) {
+
+    element.style = ` 
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content; 
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    `;
+
     const skills_name = words.words;
+
     let iteration = 1;
     let array_of_skills_splitted = skills_name.map((skill) => {
         return skill.split("");
     })
-    console.log("Array containing skills splitted into letters => ", array_of_skills_splitted);
     
     let array_of_final_html_string = array_of_skills_splitted.map((a_skill) => {
-        console.log("\nSingle skill splitted into letters => ", a_skill);
         let array_of_html_of_letter = a_skill.map((letter) => {
             if(letter == " "){
                 return `<span>&nbsp;<span>`;
             }
             return `<span>${letter}</span>`;
         })
-        console.log("\nArray containing letters with <span> => ", array_of_html_of_letter);
         return array_of_html_of_letter.join("");
     })
-    
-    console.log("Resultant HTML string => ", array_of_final_html_string);
-    
+        
     // let text_string = document.querySelector(".desc_text");
     let text_string = element;
 
     text_string.innerHTML = array_of_final_html_string[0];
     function text_animate() {
-        console.log(element.childNodes);
+        text_string.childNodes.forEach((child) => {
+            child.style = `
+            display: inline-block;
+            opacity: 0;
+            transform: translateY(10px);
+            color: ${(options !== undefined) ? (options.color !== undefined ? options.color : "black") : "black"}
+            `;
+        })
+
         let spans = element.childNodes;
         // let spans = document.querySelectorAll(".desc_text span");
     
@@ -69,7 +80,7 @@ function wavy(element, words){
             if (i == (spans.length - 1)) {
                 setTimeout(() => {
                     spans.forEach((span) => {
-                        span.style = `opacity: 0`;
+                        span.style = `opacity: 0;`;
                     })
     
                     for(let k = 0; k < skills_name.length; k++){
@@ -83,7 +94,6 @@ function wavy(element, words){
                 }, 2000)
             }
         }
-        console.log(iteration)
         if(iteration == skills_name.length){
             iteration = 1;
         } else {
@@ -94,4 +104,4 @@ function wavy(element, words){
     text_animate();
 }
 
-// wavy(document.querySelector(".description"), {words: ["Accenture", "Instagram", "Wordle", "Ginger"]});
+// wavy(document.querySelector(".description"), {words: ["Accenture", "Instagram", "Wordle", "Ginger"]}, {color: blue});
