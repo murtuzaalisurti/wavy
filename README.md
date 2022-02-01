@@ -23,7 +23,7 @@ wavy(document.querySelector(".text"), second_argument);
 The second argument you should pass is an object with a property of `words` set to a value of an `array` containing as many words as you want to display. There is no word limit.
 Example for second argument:
 ```js
-wavy(document.querySelector(".text"), {words: ["Github", "Library", "JavaScript"]});
+wavy(document.querySelector(".text"), {words: ["Wavy", "Text", "Animation", "Library", "JavaScript"]});
 ```
 
 This library is hosted on [jsdelivr](https://www.jsdelivr.com/) CDN. 
