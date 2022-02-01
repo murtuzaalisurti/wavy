@@ -1,6 +1,6 @@
 {
   "name": "@murtuzaalisurti/wavy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A package to generate animated wavy text!",
   "main": "main.js",
   "scripts": {
@@ -10,7 +10,12 @@
     "type": "git",
     "url": "git+https://github.com/murtuzaalisurti/wavy.git"
   },
-  "keywords": ["package", "text animation", "wavy text", "javascript"],
+  "keywords": [
+    "package",
+    "text animation",
+    "wavy text",
+    "javascript"
+  ],
   "author": "Murtuzaali Surti",
   "license": "ISC",
   "bugs": {
