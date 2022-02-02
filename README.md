@@ -44,3 +44,6 @@ Example for third argument:
 ```js
 wavy.wavy(document.querySelector(".text"), {words: ["Wavy", "Text", "Animation", "Library", "JavaScript"]}, {color: "green"});
 ```
+
+## Demo
+> Try it [here](https://codepen.io/seekertruth/pen/ExmGJjE)
