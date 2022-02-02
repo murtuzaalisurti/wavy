@@ -1,5 +1,7 @@
 # Wavy Text Animation Library
 
+![image](https://i.imgur.com/SLcvTrS.gif)
+
 ## Options
 
 - [Vanilla JS library](#usage)
