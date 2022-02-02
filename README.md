@@ -1,4 +1,9 @@
 # Wavy Text Animation Library
+A JavaScript Library which allows you to animate infinite words in an infinite loop in a modern wavy way!
+
+[![](https://img.shields.io/static/v1?label=npm&message=package&color=green&logo=npm)](https://www.npmjs.com/package/@murtuzaalisurti/wavy)
+
+![image](https://i.imgur.com/SLcvTrS.gif)
 
 ## Usage
 
