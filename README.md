@@ -1,5 +1,9 @@
 # Wavy Text Animation Library
 
+## Options
+
+- [Vanilla JS library](#usage)
+- [npm package](https://github.com/murtuzaalisurti/wavy/tree/package#wavy-text-animation-library)
 ## Usage
 
 ### Step 1
