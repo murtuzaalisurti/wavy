@@ -1,6 +1,6 @@
 {
   "name": "@murtuzaalisurti/wavy",
-  "version": "1.0.21",
+  "version": "1.0.22",
   "description": "A package to generate animated wavy text!",
   "main": "main.js",
   "scripts": {
