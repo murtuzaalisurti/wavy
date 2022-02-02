@@ -1,11 +1,19 @@
 # Wavy Text Animation Library
 
-This will work in React js or any other library which supports Node JS.
 ## Usage
 
 ### Step 1
 ```js
 const wavy = require('@murtuzaalisurti/wavy');
+```
+OR
+```js
+import wavy from '@murtuzaalisurti/wavy';
+```
+
+or else, you can use it directly from CDN :
+```js
+import wavy from 'https://cdn.skypack.dev/@murtuzaalisurti/wavy';
 ```
 
 ### Step 2
@@ -31,5 +39,3 @@ Example for third argument:
 ```js
 wavy.wavy(document.querySelector(".text"), {words: ["Wavy", "Text", "Animation", "Library", "JavaScript"]}, {color: "green"});
 ```
-
-This library is hosted on [jsdelivr](https://www.jsdelivr.com/) CDN. 
