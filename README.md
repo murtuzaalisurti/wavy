@@ -1,4 +1,5 @@
 # Wavy Text Animation Library
+A JavaScript Library which allows you to animate infinite words in an infinite loop in a modern wavy way!
 
 ![image](https://i.imgur.com/SLcvTrS.gif)
 
