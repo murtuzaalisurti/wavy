@@ -51,7 +51,7 @@ Example for second argument:
 wavy.wavy(document.querySelector(".text"), {words: ["Wavy", "Text", "Animation", "Library", "JavaScript"]}, third_argument);
 ```
 
-The third argument you should pass is an object with an option to set the color of the `text`. The color values can be `hex`, `rgb`, `hsl` or standard `css values`.
+The third argument (optional) you should pass is an object with an option to set the color of the `text`. The color values can be `hex`, `rgb`, `hsl` or standard `css values`. Deafult color is `black`.
 
 Example for third argument:
 ```js
