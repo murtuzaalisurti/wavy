@@ -25,6 +25,7 @@ In order to use it, insert the following `<script>` tag in the `<head>` tag of y
 
 ---
 
+
 2. ### Invoke the function
 
 Invoke the below function with the required arguments as shown below in your javascript file! Let's understand **these arguments** which are passed to the function!
@@ -58,6 +59,9 @@ wavy.wavy(document.querySelector(".text"), {words: ["Wavy", "Text", "Animation",
 ```
 
 > **NOTE: The first two arguments are mandatory!**
+
+---
+
 
 ## Demo
 
