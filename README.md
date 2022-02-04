@@ -16,6 +16,8 @@ In order to use it, insert the following `<script>` tag in the `<head>` tag of y
 <script src="https://cdn.jsdelivr.net/gh/murtuzaalisurti/wavy@master/main.js"></script>
 ```
 
+> NOTE :- In order to fetch the latest version of the library, perform a hard reload (CTRL + SHIFT + R) in your browser to bypass the file stored in disk cache. If you don't do this, your browser will load an older version of the library from disk cache!
+
 ### Invoke the function
 
 Invoke the below function with the required arguments as shown below in your javascript file! Let's understand these arguments which are passed to the function!
