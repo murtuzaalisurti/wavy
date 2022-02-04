@@ -13,7 +13,9 @@ A JavaScript Library which allows you to animate infinite words in an infinite l
 
 ## Usage
 
-1. ### Fetch the library from CDN
+> Below instructions are for Vanilla JS. For `npm package`, please follow the instructions mentioned [here](https://github.com/murtuzaalisurti/wavy/tree/package#wavy-text-animation-library).
+
+## Fetch the library from CDN
 
 In order to use it, insert the following `<script>` tag in the `<head>` tag of your HTML document. 
 
@@ -26,33 +28,33 @@ In order to use it, insert the following `<script>` tag in the `<head>` tag of y
 ---
 
 
-2. ### Invoke the function
+## Invoke the function
 
-Invoke the below function with the required arguments as shown below in your javascript file! Let's understand **these arguments** which are passed to the function!
+- Invoke the below function with the required arguments as shown below in your javascript file! Let's understand **these arguments** which are passed to the function!
 
 ```js
 wavy.wavy(html_element, {words: ["word-1", "word-2", "word-n"]}, {color: 'font-color'});
 ```
 
-The **first argument** you should pass is an html element in which you want to place the words! It's like a wrapper element!
+- The **first argument** you should pass is an html element in which you want to place the words! It's like a wrapper element!
 
-Example for first argument:
+- Example for first argument:
 
 ```js
 wavy.wavy(document.querySelector(".text"), second_argument, third_argument);
 ```
 
-The **second argument** you should pass is an object with a property of `words` set to a value of an `array` containing as many words as you want to display. There is no word limit. These words will be animated in an infinite loop!
+- The **second argument** you should pass is an object with a property of `words` set to a value of an `array` containing as many words as you want to display. There is no word limit. These words will be animated in an infinite loop!
 
-Example for second argument:
+- Example for second argument:
 
 ```js
 wavy.wavy(document.querySelector(".text"), {words: ["Wavy", "Text", "Animation", "Library", "JavaScript"]}, third_argument);
 ```
 
-The **third argument (optional)** you should pass is an object with an option to set the color of the `text`. The color values can be `hex`, `rgb`, `hsl` or standard `css values`. Deafult color is `black`.
+- The **third argument (optional)** you should pass is an object with an option to set the color of the `text`. The color values can be `hex`, `rgb`, `hsl` or standard `css values`. Deafult color is `black`.
 
-Example for third argument:
+- Example for third argument:
 
 ```js
 wavy.wavy(document.querySelector(".text"), {words: ["Wavy", "Text", "Animation", "Library", "JavaScript"]}, {color: "green"});
