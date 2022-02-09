@@ -1,16 +1,28 @@
 
 function wavy(element, words, options) {
+    
+    const defaults = {
+        color: 'black',
+        fontSize: '1rem',
+        fontFamily: "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif",
+        transform: 'scale(1.5)'
+    }
+
+    function setOptions(type){
+        return (options !== undefined) ? ((Object.keys(options).length !== 0) ? (options[type] !== undefined ? options[type] : defaults[type]) : defaults[type]) : defaults[type];
+    }
 
     element.style = ` 
     width: -webkit-fit-content;
     width: -moz-fit-content;
     width: fit-content; 
-    -webkit-transform: scale(1.5);
-    transform: scale(1.5);
+    -webkit-transform: ${setOptions('transform')};
+    transform: ${setOptions('transform')};
+    font-family: ${setOptions('fontFamily')};
+    font-size: ${setOptions('fontSize')};
     `;
 
     const skills_name = words.words;
-
     let iteration = 1;
     let array_of_skills_splitted = skills_name.map((skill) => {
         return skill.split("");
@@ -26,7 +38,6 @@ function wavy(element, words, options) {
         return array_of_html_of_letter.join("");
     })
         
-    // let text_string = document.querySelector(".desc_text");
     let text_string = element;
 
     text_string.innerHTML = array_of_final_html_string[0];
@@ -36,24 +47,22 @@ function wavy(element, words, options) {
             display: inline-block;
             opacity: 0;
             transform: translateY(10px);
-            color: ${(options !== undefined) ? (options.color !== undefined ? options.color : "black") : "black"}
+            color: ${setOptions('color')};
             `;
         })
 
-        let spans = element.childNodes;
-        // let spans = document.querySelectorAll(".desc_text span");
+        let spans = element.childNodes; // document.querySelectorAll(".class span");
     
         for (let i = 0; i < spans.length; i++) {
             let word_length = spans.length;
             let zoom_in = text_string.animate([
                 {
-                    transform: `scale(${Number(1.5)})`
+                    transform: `${setOptions('transform')}` // default = `scale(${Number(1.5)})`
                 },
                 {
                     transform: `scale(${Number(1)})`
                 }
             ], {
-                // delay: 300,
                 delay: `${Number((word_length/3)*100)}`,
                 duration: 400,
                 iterations: 1,
@@ -104,4 +113,12 @@ function wavy(element, words, options) {
     text_animate();
 }
 
-// wavy(document.querySelector(".description"), {words: ["Accenture", "Instagram", "Wordle", "Ginger"]}, {color: blue});
+/* --use--
+
+wavy(
+    document.querySelector(".description"), 
+    {words: ["Accenture", "Instagram", "Wordle", "Ginger"]},
+    {color: 'green', fontSize: '2rem', fontFamily: 'Poppins, sans-serif', transform: 'scale(1.8)'}
+); 
+
+*/
