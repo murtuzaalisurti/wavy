@@ -27,6 +27,8 @@ In order to use it, insert the following `<script>` tag in the `<head>` tag of y
 
 ```
 
+> NOTE :- In order to fetch the latest version of the library, perform a hard reload (CTRL + SHIFT + R) in your browser to bypass the file stored in disk cache. If you don't do this, your browser will load an older version of the library from disk cache!
+
 OR
 
 ```html
@@ -35,7 +37,6 @@ OR
 <script src="https://unpkg.com/@murtuzaalisurti/wavy@latest/browserUnpkg.js"></script>
 
 ```
-> NOTE :- In order to fetch the latest version of the library, perform a hard reload (CTRL + SHIFT + R) in your browser to bypass the file stored in disk cache. If you don't do this, your browser will load an older version of the library from disk cache!
 
 ---
 
