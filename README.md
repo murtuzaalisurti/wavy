@@ -1,4 +1,5 @@
 # Wavy Text Animation Library
+
 A JavaScript Library which allows you to animate infinite words in an infinite loop in a modern wavy way!
 
 ![image](https://i.imgur.com/SLcvTrS.gif)
@@ -20,9 +21,20 @@ A JavaScript Library which allows you to animate infinite words in an infinite l
 In order to use it, insert the following `<script>` tag in the `<head>` tag of your HTML document. 
 
 ```html
+
+<!-- jsDelivr -->
 <script src="https://cdn.jsdelivr.net/gh/murtuzaalisurti/wavy@master/main.js"></script>
+
 ```
 
+OR
+
+```html
+
+<!-- UNPKG -->
+<script src="https://unpkg.com/@murtuzaalisurti/wavy@latest/browserUnpkg.js"></script>
+
+```
 > NOTE :- In order to fetch the latest version of the library, perform a hard reload (CTRL + SHIFT + R) in your browser to bypass the file stored in disk cache. If you don't do this, your browser will load an older version of the library from disk cache!
 
 ---
