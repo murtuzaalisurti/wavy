@@ -34,7 +34,18 @@ In order to use it, insert the following `<script>` tag in the `<head>` tag of y
 
 ```js
 
-wavy(html_element, {words: ["word-1", "word-2", "word-n"]}, {color: 'font-color'});
+wavy(
+    html_element, // example : document.querySelector('.text')
+    {
+        words: ["word-1", "word-2", "word-n"]
+    }, 
+    {
+        color: 'font-color', // hsl, rgb, hex, rgba, css standard values
+        fontSize: 'font-size', // any valid unit
+        fontFamily: 'font-family', // any valid font family 
+        transform: 'scale(x)' // example : scale(1.5)
+    }
+);
 
 ```
 
