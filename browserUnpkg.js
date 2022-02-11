@@ -30,7 +30,7 @@ function wavy(element, words, options) {
     let array_of_final_html_string = array_of_skills_splitted.map((a_skill) => {
         let array_of_html_of_letter = a_skill.map((letter) => {
             if(letter == " "){
-                return `<span>&nbsp;<span>`;
+                return `<span>&nbsp;</span>`;
             }
             return `<span>${letter}</span>`;
         })
