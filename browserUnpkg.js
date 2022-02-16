@@ -22,24 +22,17 @@ function wavy(element, words, options) {
     `;
 
     const skills_name = words.words;
+
     let iteration = 1;
-    let array_of_skills_splitted = skills_name.map((skill) => {
-        return skill.split("");
-    })
     
-    let array_of_final_html_string = array_of_skills_splitted.map((a_skill) => {
-        let array_of_html_of_letter = a_skill.map((letter) => {
-            if(letter == " "){
-                return `<span>&nbsp;</span>`;
-            }
-            return `<span>${letter}</span>`;
-        })
-        return array_of_html_of_letter.join("");
-    })
+    let array_of_skills_splitted = skills_name.map(skill => skill.split(""));
+    
+    let array_of_final_html_string = array_of_skills_splitted.map(a_skill => a_skill.map(letter => letter === " " ? `<span>&nbsp;</span>` : `<span>${letter}</span>`).join(""));
         
     let text_string = element;
 
     text_string.innerHTML = array_of_final_html_string[0];
+    
     function text_animate() {
         text_string.childNodes.forEach((child) => {
             child.style = `
