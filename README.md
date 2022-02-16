@@ -8,8 +8,8 @@ A JavaScript Library which allows you to animate infinite words in an infinite l
 
 ## Options
 
-- [JS library for Browser](#npm-package)
-- [NPM package](#for-browsers)
+- [JS library for Browser](#for-browsers)
+- [NPM package](#npm-package)
 
 ---
 
