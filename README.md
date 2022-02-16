@@ -6,6 +6,15 @@ A JavaScript Library which allows you to animate infinite words in an infinite l
 
 ![image](https://i.imgur.com/SLcvTrS.gif)
 
+## Options
+
+- [JS library for Browser]()
+- [NPM package]()
+
+---
+
+# NPM package
+
 ## Usage
 
 ### Install the package
