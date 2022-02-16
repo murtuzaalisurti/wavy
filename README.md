@@ -8,8 +8,8 @@ A JavaScript Library which allows you to animate infinite words in an infinite l
 
 ## Options
 
-- [JS library for Browser]()
-- [NPM package]()
+- [JS library for Browser](#npm-package)
+- [NPM package](#for-browsers)
 
 ---
 
@@ -123,7 +123,7 @@ wavy.wavy(
 
 ## Usage
 
-> Below instructions are for Vanilla JS. For `npm package`, please follow the instructions mentioned [here]().
+> Below instructions are for Vanilla JS. For `npm package`, please follow the instructions mentioned [here](#npm-package).
 
 ## Fetch the library from CDN
 
