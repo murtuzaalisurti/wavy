@@ -13,7 +13,7 @@ A JavaScript Library which allows you to animate infinite words in an infinite l
 
 ---
 
-# NPM package
+# <u>NPM package</u>
 
 ## Usage
 
@@ -119,7 +119,7 @@ wavy.wavy(
 
 ---
 
-# For Browsers
+# <u>For Browsers</u>
 
 ## Usage
 
