@@ -196,10 +196,12 @@ wavy(document.querySelector(".text"), {words: ["Wavy", "Text", "Animation", "Lib
 ```js
 //these are default values
 
-color: 'black', // you can also use rgb, hsl, rgba, hex
-fontSize: '1rem',
-fontFamily: 'sans-serif',
-transform: scale(1.5)
+{
+    color: 'black', // you can also use rgb, hsl, rgba, hex
+    fontSize: '1rem',
+    fontFamily: 'sans-serif',
+    transform: scale(1.5)
+}
 
 ```
 
