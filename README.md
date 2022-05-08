@@ -3,6 +3,7 @@ A JavaScript Library which allows you to animate infinite words in an infinite l
 
 [![download badge](https://badgen.net/npm/dt/@murtuzaalisurti/wavy/?color=blue&icon=npm&labelColor=black&scale=1.1)](https://www.npmjs.com/package/@murtuzaalisurti/wavy)
 [![github release](https://badgen.net/github/release/murtuzaalisurti/wavy/?labelColor=black&color=green&scale=1.1&icon=github)](https://github.com/murtuzaalisurti/wavy/releases)
+[![Featured on Openbase](https://badges.openbase.com/js/featured/@murtuzaalisurti/wavy.svg?token=1kjnfJTvqtnXHprCgwkJyjFVymPGFCcbEXlIltpZktE=)](https://openbase.com/js/@murtuzaalisurti/wavy?utm_source=embedded&amp;utm_medium=badge&amp;utm_campaign=rate-badge)
 
 ![image](https://i.imgur.com/SLcvTrS.gif)
 
