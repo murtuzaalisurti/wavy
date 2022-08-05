@@ -35,12 +35,6 @@ OR
 import wavy from '@murtuzaalisurti/wavy';
 ```
 
-or else, you can use it directly from CDN :
-
-```js
-import wavy from 'https://cdn.skypack.dev/@murtuzaalisurti/wavy';
-```
-
 ### - Invoke the function
 
 - Invoke the below function with the required arguments as shown below in your javascript file! Let's understand **these arguments** which are passed to the function!
@@ -117,10 +111,6 @@ wavy.wavy(
 
 > *NOTE: The first two arguments are mandatory!
 
-### Demo
-
-> Try it [here](https://codepen.io/seekertruth/pen/ExmGJjE)
-
 ---
 
 ## For Browsers - Usage
@@ -134,7 +124,7 @@ In order to use it, insert the following `<script>` tag in the `<head>` tag of y
 ```html
 
 <!-- jsDelivr -->
-<script src="https://cdn.jsdelivr.net/npm/@murtuzaalisurti/wavy/browserUnpkg.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@murtuzaalisurti/wavy/production.min.js"></script>
 
 ```
 
@@ -145,7 +135,7 @@ OR
 ```html
 
 <!-- UNPKG -->
-<script src="https://unpkg.com/@murtuzaalisurti/wavy@latest/browserUnpkg.js"></script>
+<script src="https://unpkg.com/@murtuzaalisurti/wavy@latest/production.min.js"></script>
 
 ```
 
@@ -229,6 +219,6 @@ wavy(
 
 ---
 
-### Demo :-
+### Demo
 
 > Try it on [CodePen](https://codepen.io/seekertruth/pen/ExmGJjE)!
