@@ -1,4 +1,5 @@
 # Wavy Text Animation Library
+
 A JavaScript Library which allows you to animate infinite words in an infinite loop in a modern wavy way!
 
 [![download badge](https://badgen.net/npm/dt/@murtuzaalisurti/wavy/?color=blue&icon=npm&labelColor=black&scale=1.1)](https://www.npmjs.com/package/@murtuzaalisurti/wavy)
@@ -14,33 +15,33 @@ A JavaScript Library which allows you to animate infinite words in an infinite l
 
 ---
 
-# <u>NPM package</u>
+## NPM package - Usage
 
-## Usage
+### - Install the package
 
-### Install the package
-
-```
+```bash
 npm i @murtuzaalisurti/wavy
 ```
 
-### Import the package
+### - Import the package
 
 ```js
 const wavy = require('@murtuzaalisurti/wavy');
 ```
 
 OR
+
 ```js
 import wavy from '@murtuzaalisurti/wavy';
 ```
 
 or else, you can use it directly from CDN :
+
 ```js
 import wavy from 'https://cdn.skypack.dev/@murtuzaalisurti/wavy';
 ```
 
-## Invoke the function
+### - Invoke the function
 
 - Invoke the below function with the required arguments as shown below in your javascript file! Let's understand **these arguments** which are passed to the function!
 
@@ -116,21 +117,19 @@ wavy.wavy(
 
 > *NOTE: The first two arguments are mandatory!
 
-## Demo
+### Demo
 
 > Try it [here](https://codepen.io/seekertruth/pen/ExmGJjE)
 
 ---
 
-# <u>For Browsers</u>
-
-## Usage
+## For Browsers - Usage
 
 > Below instructions are for Vanilla JS. For `npm package`, please follow the instructions mentioned [here](#npm-package).
 
-## Fetch the library from CDN
+### - Fetch the library from CDN
 
-In order to use it, insert the following `<script>` tag in the `<head>` tag of your HTML document. 
+In order to use it, insert the following `<script>` tag in the `<head>` tag of your HTML document.
 
 ```html
 
@@ -152,8 +151,7 @@ OR
 
 ---
 
-
-## Invoke the function
+### - Invoke function
 
 - Invoke the below function with the required arguments as shown below in your javascript file! Let's understand **these arguments** which are passed to the function!
 
@@ -231,7 +229,6 @@ wavy(
 
 ---
 
-
-## Demo
+### Demo :-
 
 > Try it on [CodePen](https://codepen.io/seekertruth/pen/ExmGJjE)!
