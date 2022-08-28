@@ -10,8 +10,8 @@ A JavaScript Library which allows you to animate infinite words in an infinite l
 
 ## Options
 
-- [JS library for Browser](#for-browsers)
-- [NPM package](#npm-package)
+- [JS library for Browser](#for-browsers---usage)
+- [NPM package](#npm-package---usage)
 
 ---
 
@@ -26,13 +26,13 @@ npm i @murtuzaalisurti/wavy
 ### - Import the package
 
 ```js
-const wavy = require('@murtuzaalisurti/wavy');
+const { wavy } = require('@murtuzaalisurti/wavy');
 ```
 
 OR
 
 ```js
-import wavy from '@murtuzaalisurti/wavy';
+import { wavy } from '@murtuzaalisurti/wavy';
 ```
 
 ### - Invoke the function
@@ -41,7 +41,7 @@ import wavy from '@murtuzaalisurti/wavy';
 
 ```js
 
-wavy.wavy(
+wavy(
     html_element, // example : document.querySelector('.text')
     {
         words: ["word-1", "word-2", "word-n"]
@@ -62,7 +62,7 @@ wavy.wavy(
 
 ```js
 
-wavy.wavy(document.querySelector(".text"), second_argument, third_argument);
+wavy(document.querySelector(".text"), second_argument, third_argument);
 
 ```
 
@@ -72,7 +72,7 @@ wavy.wavy(document.querySelector(".text"), second_argument, third_argument);
 
 ```js
 
-wavy.wavy(document.querySelector(".text"), {words: ["Wavy", "Text", "Animation", "Library", "JavaScript"]}, third_argument);
+wavy(document.querySelector(".text"), {words: ["Wavy", "Text", "Animation", "Library", "JavaScript"]}, third_argument);
 
 ```
 
@@ -94,7 +94,7 @@ wavy.wavy(document.querySelector(".text"), {words: ["Wavy", "Text", "Animation",
 
 ```js
 
-wavy.wavy(
+wavy(
     document.querySelector(".text"), 
     {
         words: ["Wavy", "Text", "Animation", "Library", "JavaScript"]
@@ -115,7 +115,7 @@ wavy.wavy(
 
 ## For Browsers - Usage
 
-> Below instructions are for Vanilla JS. For `npm package`, please follow the instructions mentioned [here](#npm-package).
+> For `npm package`, please follow the instructions mentioned [here](#npm-package---usage).
 
 ### - Fetch the library from CDN
 
