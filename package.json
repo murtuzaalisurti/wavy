@@ -2,7 +2,7 @@
   "name": "@murtuzaalisurti/wavy",
   "version": "1.2.2",
   "description": "A package to generate animated wavy text!",
-  "main": "main.js",
+  "main": "main.min.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
